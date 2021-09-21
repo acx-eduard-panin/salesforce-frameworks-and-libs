@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validate</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(LEN(FieldWithValidationRule__c) &lt; 10, NOT(ISBLANK(FieldWithValidationRule__c)))</errorConditionFormula>
+    <errorDisplayField>FieldWithValidationRule__c</errorDisplayField>
+    <errorMessage>The field should contain at least 10 characters</errorMessage>
+</ValidationRule>
