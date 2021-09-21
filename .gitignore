@@ -1,0 +1,16 @@
+# Salesforce cache
+.sfdx/
+.localdevserver/
+.idea/
+
+# LWC Jest coverage reports
+coverage/
+
+# Dependency directories
+node_modules/
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
