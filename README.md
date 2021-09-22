@@ -28,3 +28,17 @@ Please see the usage example in the DataFactory class or see [documentation](htt
 Please see the usage example in the DataFactory class or see [documentation](https://github.com/4an70m/apex-query-builder)
 
 
+### Apex REST Route
+
+**Description:** It mostly oriented on custom REST API based on Apex. 
+
+**Main features**
+- Flexible REST APP
+- Errors handler
+- Easy to extend your app 
+
+**License:** _MIT License_
+
+Please see `restRoute\controllers` and `restRoute\RestController` class. Also you can find postman collection in the `artifacts` folder. [Documentation](https://github.com/callawaycloud/apex-rest-route)
+
+

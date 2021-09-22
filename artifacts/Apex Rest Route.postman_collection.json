@@ -1,0 +1,115 @@
+{
+	"info": {
+		"_postman_id": "3d5275fc-7f62-49b5-9ec4-c75f576c28f9",
+		"name": "Apex Rest Route",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Calculator POST",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "00D63000000WbZA!AQwAQHrjKc0OoMmEVVJltpfejtDhu9C1i_7Ri91xR0eUWTxjVdtuPRvmQBq.dwG6TiGrN6gvz6VhulzfKCFjcCTN9DH8kBFe",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://agility-energy-240-dev-ed.cs43.my.salesforce.com/services/apexrest/calculator",
+					"protocol": "https",
+					"host": [
+						"agility-energy-240-dev-ed",
+						"cs43",
+						"my",
+						"salesforce",
+						"com"
+					],
+					"path": [
+						"services",
+						"apexrest",
+						"calculator"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Company GET",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "<SESSION_ID>",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://agility-energy-240-dev-ed.cs43.my.salesforce.com/services/apexrest/companies/5675",
+					"protocol": "https",
+					"host": [
+						"agility-energy-240-dev-ed",
+						"cs43",
+						"my",
+						"salesforce",
+						"com"
+					],
+					"path": [
+						"services",
+						"apexrest",
+						"companies",
+						"5675"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Employee GET",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "<SESSION_ID>",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://agility-energy-240-dev-ed.cs43.my.salesforce.com/services/apexrest/companies/5675/employees/454",
+					"protocol": "https",
+					"host": [
+						"agility-energy-240-dev-ed",
+						"cs43",
+						"my",
+						"salesforce",
+						"com"
+					],
+					"path": [
+						"services",
+						"apexrest",
+						"companies",
+						"5675",
+						"employees",
+						"454"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
