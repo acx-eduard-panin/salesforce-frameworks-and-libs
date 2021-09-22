@@ -16,9 +16,15 @@ Please see the usage example in the DataFactory class or see [documentation](htt
 
 ### Apex Query Builder
 
-**Description:** The library can allow developers to construct secure query and make it more readable.
+**Description:** The library can allow developers to construct secure query and make it more readable. 
 
 **Main features**
+- Security check
+- Extract Fields
+- Supports Field Set 
 
 **License:** _MIT License_
+
+Please see the usage example in the DataFactory class or see [documentation](https://github.com/4an70m/apex-query-builder)
+
 
