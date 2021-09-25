@@ -12,7 +12,9 @@ It is a short overview of Salesforce useful frameworks and libs
 
 **License:** _Apache License 2.0_
 
-Please see the usage example in the DataFactory class or see [documentation](https://github.com/benahm/TestDataFactory/blob/master/docs/EXAMPLES.md)
+Please see the usage example in the DataFactory class.
+
+[Apex Test Data Factory](https://github.com/benahm/TestDataFactory/blob/master/docs/EXAMPLES.md)
 
 ### Apex Query Builder
 
@@ -25,7 +27,9 @@ Please see the usage example in the DataFactory class or see [documentation](htt
 
 **License:** _MIT License_
 
-Please see the usage example in the Query class or see [documentation](https://github.com/4an70m/apex-query-builder)
+Please see the usage example in the Query class.
+
+[Apex Query Builder](https://github.com/4an70m/apex-query-builder)
 
 
 ### Apex REST Route
@@ -39,7 +43,9 @@ Please see the usage example in the Query class or see [documentation](https://g
 
 **License:** _MIT License_
 
-Please see `restRoute\controllers` and `restRoute\RestController` class. Also, you can find postman collection in the `artifacts` folder. [Documentation](https://github.com/callawaycloud/apex-rest-route)
+Please see `restRoute\controllers` and `restRoute\RestController` class. Also, you can find postman collection in the `artifacts` folder. 
+
+[Apex REST Route](https://github.com/callawaycloud/apex-rest-route)
 
 ### Apex Unified Logging
 
@@ -53,5 +59,6 @@ Please see `restRoute\controllers` and `restRoute\RestController` class. Also, y
 **License:** _MIT License_
 
 Please see `Logging` class. Also, you can find logging tab to overview the UI component. 
+
 [Apex Unified Logging](https://github.com/rsoesemann/apex-unified-logging)
 
