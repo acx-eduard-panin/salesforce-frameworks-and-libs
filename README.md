@@ -25,7 +25,7 @@ Please see the usage example in the DataFactory class or see [documentation](htt
 
 **License:** _MIT License_
 
-Please see the usage example in the DataFactory class or see [documentation](https://github.com/4an70m/apex-query-builder)
+Please see the usage example in the Query class or see [documentation](https://github.com/4an70m/apex-query-builder)
 
 
 ### Apex REST Route
@@ -39,6 +39,19 @@ Please see the usage example in the DataFactory class or see [documentation](htt
 
 **License:** _MIT License_
 
-Please see `restRoute\controllers` and `restRoute\RestController` class. Also you can find postman collection in the `artifacts` folder. [Documentation](https://github.com/callawaycloud/apex-rest-route)
+Please see `restRoute\controllers` and `restRoute\RestController` class. Also, you can find postman collection in the `artifacts` folder. [Documentation](https://github.com/callawaycloud/apex-rest-route)
 
+### Apex Unified Logging
+
+**Description:** It is Apex Unified Logging lib with additional functionality. Great lib to allow logging in Apex with possibility of configuration.
+
+**Main features**
+- No effect of transactions
+- Real time logging
+- Autofill context and method name
+
+**License:** _MIT License_
+
+Please see `Logging` class. Also, you can find logging tab to overview the UI component. 
+[Apex Unified Logging](https://github.com/rsoesemann/apex-unified-logging)
 

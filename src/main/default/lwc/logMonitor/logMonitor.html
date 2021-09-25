@@ -1,0 +1,41 @@
+<template>
+	<div class="container">
+		<div class="slds-p-around_x-small slds-border_bottom slds-theme_shade">
+			<div class="slds-grid slds-grid_align-spread slds-grid_vertical-align-center">
+				<div>
+					<span class="slds-badge">{logsAsTree.length}</span>
+				</div>
+				<div>
+					<lightning-input if:false={isStream} type="date" value={today} name="fromDate" label="From Date"
+									 onchange={onInputChange}></lightning-input>
+				</div>
+				<div>
+					<lightning-input if:false={isStream} type="date" value={today} name="toDate" label="To Date"
+									 onchange={onInputChange}></lightning-input>
+				</div>
+				<div>
+					<lightning-button-group>
+						<lightning-input type="toggle"
+										 class="slds-m-right_x-small"
+										 label="View Type"
+										 checked={isStream}
+										 message-toggle-active="Stream"
+										 message-toggle-inactive="Manual Search"
+										 onchange={changeType}></lightning-input>
+						<lightning-button if:true={isStream} onclick={toggleMute} icon-name={muteIcon} label={muteLabel}
+										  variant="brand-outline"></lightning-button>
+						<lightning-button if:false={isStream} onclick={doSearch} disabled={disableSearch}
+										  icon-name="utility:search" label="Search"
+										  variant="brand-outline"></lightning-button>
+						<lightning-button onclick={clearAll} icon-name="utility:delete" label="Clear all"
+										  variant="brand-outline"></lightning-button>
+					</lightning-button-group>
+				</div>
+			</div>
+		</div>
+
+		<div class="slds-container_fluid slds-scrollable_x content">
+			<lightning-tree-grid columns={columns} data={logsAsTree} key-field="txt_Context__c"></lightning-tree-grid>
+		</div>
+	</div>
+</template>
