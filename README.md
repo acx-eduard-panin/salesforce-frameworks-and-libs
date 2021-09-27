@@ -62,3 +62,20 @@ Please see `Logging` class. Also, you can find logging tab to overview the UI co
 
 [Apex Unified Logging](https://github.com/rsoesemann/apex-unified-logging)
 
+### Force DI
+
+**Description:** The Great lib to implement dependency injection on Salesforce.
+
+**Main features**
+- Make your code cleaner
+- Easy to modify
+- Easy to reuse  
+- Minimize risks when changes needed
+
+
+**License:** _BSD-3-Clause License_
+
+You can find the implementation of DI in the `forceDI/withDI` folder. Please note that you should implement Binding (see `forceDI/withDI`). In the custom metadata record(`di_Binding.apex_Bindings`) you can find the place where the config file is configured.
+
+[Apex Unified Logging](https://github.com/apex-enterprise-patterns/force-di)
+
