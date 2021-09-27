@@ -1,7 +1,7 @@
 # Salesforce Frameworks and Libs
 It is a short overview of Salesforce useful frameworks and libs
 
-### Apex Test Data Factory
+### [Apex Test Data Factory](https://github.com/benahm/TestDataFactory/blob/master/docs/EXAMPLES.md)
 
 **Description:** The great library can allow developers to avoid some extra code for record creating.
 
@@ -12,11 +12,11 @@ It is a short overview of Salesforce useful frameworks and libs
 
 **License:** _Apache License 2.0_
 
-Please see the usage example in the DataFactory class.
+>Please see the usage example in the DataFactory class.
 
-[Apex Test Data Factory](https://github.com/benahm/TestDataFactory/blob/master/docs/EXAMPLES.md)
+***
 
-### Apex Query Builder
+### [Apex Query Builder](https://github.com/4an70m/apex-query-builder)
 
 **Description:** The library can allow developers to construct secure query and make it more readable. 
 
@@ -27,12 +27,11 @@ Please see the usage example in the DataFactory class.
 
 **License:** _MIT License_
 
-Please see the usage example in the Query class.
+>Please see the usage example in the Query class.
 
-[Apex Query Builder](https://github.com/4an70m/apex-query-builder)
+***
 
-
-### Apex REST Route
+### [Apex REST Route](https://github.com/callawaycloud/apex-rest-route)
 
 **Description:** It mostly oriented on custom REST API based on Apex. 
 
@@ -43,11 +42,11 @@ Please see the usage example in the Query class.
 
 **License:** _MIT License_
 
-Please see `restRoute\controllers` and `restRoute\RestController` class. Also, you can find postman collection in the `artifacts` folder. 
+>Please see `restRoute\controllers` and `restRoute\RestController` class. Also, you can find postman collection in the `artifacts` folder. 
 
-[Apex REST Route](https://github.com/callawaycloud/apex-rest-route)
+***
 
-### Apex Unified Logging
+### [Apex Unified Logging](https://github.com/rsoesemann/apex-unified-logging)
 
 **Description:** It is Apex Unified Logging lib with additional functionality. Great lib to allow logging in Apex with possibility of configuration.
 
@@ -58,11 +57,11 @@ Please see `restRoute\controllers` and `restRoute\RestController` class. Also, y
 
 **License:** _MIT License_
 
-Please see `Logging` class. Also, you can find logging tab to overview the UI component. 
+>Please see `Logging` class. Also, you can find logging tab to overview the UI component. 
 
-[Apex Unified Logging](https://github.com/rsoesemann/apex-unified-logging)
+***
 
-### Force DI
+### [Force DI](https://github.com/apex-enterprise-patterns/force-di)
 
 **Description:** The Great lib to implement dependency injection on Salesforce.
 
@@ -75,10 +74,8 @@ Please see `Logging` class. Also, you can find logging tab to overview the UI co
 
 **License:** _BSD-3-Clause License_
 
-You can find the implementation of DI in the `forceDI/withDI` folder. Please note that you should implement Binding (see `forceDI/withDI`). In the custom metadata record(`di_Binding.apex_Bindings`) you can find the place where the config file is configured.
+>You can find the implementation of DI in the `forceDI/withDI` folder. Please note that you should implement Binding (see `forceDI/withDI`). In the custom metadata record(`di_Binding.apex_Bindings`) you can find the place where the config file is configured.
 
-[Force DI](https://github.com/apex-enterprise-patterns/force-di)
-
-#
+***
 
 [![Ascendix](https://ascendixtech.com/wp-content/uploads/2020/09/logo-scroll.svg)](https://ascendixtech.com/careers/)
