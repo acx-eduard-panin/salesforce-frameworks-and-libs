@@ -78,4 +78,4 @@ It is a short overview of Salesforce useful frameworks and libs
 
 ***
 
-[![Ascendix](https://ascendixtech.com/wp-content/uploads/2020/09/logo-scroll.svg)](https://ascendixtech.com/careers/)
+[<p align="right"> <img src="https://ascendixtech.com/wp-content/uploads/2020/09/logo-scroll.svg" alt="Sublime's custom image"/></p>](https://ascendixtech.com/careers/)
