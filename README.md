@@ -75,6 +75,8 @@ It is a short overview of Salesforce useful frameworks and libs
 **License:** _BSD-3-Clause License_
 
 >You can find the implementation of DI in the `forceDI/withDI` folder. Please note that you should implement Binding (see `forceDI/withDI`). In the custom metadata record(`di_Binding.apex_Bindings`) you can find the place where the config file is configured.
+> ![UML diagram](https://raw.githubusercontent.com/acx-eduard-panin/salesforce-frameworks-and-libs/main/artifacts/UML_DI.jpg)
+
 
 ***
 
