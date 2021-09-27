@@ -80,4 +80,20 @@ It is a short overview of Salesforce useful frameworks and libs
 
 ***
 
+### [SFDC trigger framework](https://github.com/kevinohara80/sfdc-trigger-framework)
+
+**Description:** One more trigger handler framework for Salesforce.
+
+**Main features**
+- Follow Salesforce best practices
+- Only to classes as dependency
+- Easy to use
+
+**License:** _MIT License_
+
+>You can find the implementation of Trigger Handler in the `ContactTriggerHandler` class.
+
+
+***
+
 [<p align="right"> <img src="https://ascendixtech.com/wp-content/uploads/2020/09/logo-scroll.svg" alt="Sublime's custom image"/></p>](https://ascendixtech.com/careers/)
